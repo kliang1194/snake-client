@@ -23,6 +23,8 @@ const setupInput = function(conn) {
       conn.write(a);
     } if (input === 'd') {
       conn.write(d);
+    } if (input === "i") {
+      conn.write(`Say: Hello there!`);
     }
   };
 
